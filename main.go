@@ -48,7 +48,7 @@ func handleAllRequests() {
 
 func welcome(response http.ResponseWriter, request *http.Request) {
 	fmt.Println("Root endpoint called!")
-	fmt.Fprint(response, "Welcome to REST with Go!")
+	fmt.Fprint(response, "Welcome to REST with Go and Jenkins!")
 }
 
 func allFriends(response http.ResponseWriter, request *http.Request) {
